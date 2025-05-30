@@ -1707,7 +1707,7 @@ public class CruelSimpleton : MonoBehaviour {
 
         else if (Rule7())
         {
-            yield return ProcessTwitchCommand("press " + (rule7Answer + 1));
+            yield return ProcessTwitchCommand("press " + FindRule7Answer());
         }
 
         else if (Rule8())
